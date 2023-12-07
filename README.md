@@ -39,4 +39,16 @@ This project is a basic real-time chat application built with the MERN stack, wh
    git clone https: //github.com/your-username/basic-mern-chat-app.git](https://github.com/Siwani-tech/chat-app)https://github.com/Siwani-tech/chat-app
 2. install necessary packages
     
-  
+
+##Usage
+
+    Open the application in your browser.
+    Sign up or log in to start chatting.
+
+##Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+    
+##License
+
+This project is licensed under the MIT License.
