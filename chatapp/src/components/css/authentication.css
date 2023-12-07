@@ -1,0 +1,90 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: #f5fffa url("../../assets/food.png") repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+  font-size: 80px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.container {
+  text-align: center;
+}
+
+.sign-in {
+  background-color: #ffffff;
+  color: #4facfe;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 14px 16px rgba(0, 0, 0, 0.1);
+  
+}
+
+.sign-in:hover {
+  background-color: #4facfe;
+  color: #ffffff;
+}
+
+.sign-in img {
+  margin-right: 10px;
+}
+
+.sign-in span{
+  font-size: 16px;
+}
+
+.sign-out {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #4facfe;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 14px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+.sign-out:hover {
+  background-color: #dfd7d6; 
+}
